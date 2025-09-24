@@ -37,6 +37,7 @@ The goal is to build a nightly sync service that updates patient phone numbers i
   Securely stores Google service account credentials and API keys.
 
 ---
+```markdown
 ### Component Diagram
 
 ```mermaid
