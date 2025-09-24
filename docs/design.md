@@ -68,10 +68,11 @@ flowchart LR
     C --> G
     F --> B
     F --> C
-
+```
 
 ## 3. Data Flow (Sequence)
 
+```mermaid
 sequenceDiagram
     participant Scheduler
     participant Worker
