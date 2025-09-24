@@ -42,6 +42,7 @@ Assumptions:
 
 
 4. **Example Run**
+   
 Input patient before:
 ```json
 {
