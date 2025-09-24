@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import { parse } from "csv-parse/sync";
 
-// Normalisasi nomor telepon (contoh aturan sederhana)
+// Normalisasi nomor telepon 
 function normalizePhone(phone: string): string {
   let cleaned = phone.replace(/[^0-9]/g, ""); // hapus karakter selain angka
 
@@ -64,7 +64,7 @@ function main() {
   const outPath = path.join(__dirname, "../output/patients-updated.json");
   fs.writeFileSync(outPath, JSON.stringify(output, null, 2), "utf-8");
 
-  console.log("✅ Patients updated saved to output/patients-updated.json");
+  console.log("Patients updated saved to output/patients-updated.json");
 }
 
 main();
